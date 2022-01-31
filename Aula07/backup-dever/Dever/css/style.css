@@ -1,0 +1,753 @@
+/* ------- HEADER TOPO  -------- */
+body{
+    padding: 0;
+    margin: 0;
+}
+.nav-principal{
+    width: 100%;
+    height: 140px;
+    background-color: white;
+    position:fixed;
+    margin: 0;
+    top: 0;
+    left: 0;
+    font-family: nunito;
+}
+
+.nav-conteudo{
+    width: 100%;
+    height: 100%;
+    color: #2f3134;
+    font-size: 12pt;
+    
+}
+
+.icon-menu{
+position: relative;
+left: 270px;
+top: 32px;
+
+}
+
+.menu1{
+    margin-left: 305px;
+}
+.menu1a{
+    text-decoration: none;
+    color: #2f3134;
+}
+
+
+
+#linha-vertical{
+    height: 45px;
+    border-right: 1px solid rgb(240, 235, 235);
+    opacity: 90%;
+    margin-right: 1430px;
+    margin-top: -35px;
+}
+
+.nav-assine{
+    margin-left: 385px;
+    margin-top: -32px;
+}
+.nav-assine1{
+    text-decoration: none;
+    color: #2f3134;
+}
+
+.logoprincipal{
+    margin-left: 800px;
+    margin-top: -30px;
+}
+
+.contaglobo{
+    margin-top: -34px;
+    margin-left: 1280px;
+
+}
+.contaglobo1{
+    text-decoration: none;
+    color: #2f3134;
+
+}
+
+.icon-cg{
+    margin-top: -30px;
+    margin-left: 1380px;
+    cursor: pointer;
+}
+
+#linha-vertical2{
+    height: 45px;
+    border-right: 1px solid rgb(240, 235, 235);
+    opacity: 90%;
+    margin-right: 365px;
+    margin-top: -45px;
+}
+
+.nav-busca{
+    margin-left: 1450px;
+    margin-top: -38px;
+}
+.nav-busca1{
+    text-decoration: none;
+    color: #2f3134;
+}
+
+.icon-busca{
+    margin-left: 1500px;
+    margin-top: -28px;
+}
+
+.quebra1{
+    margin-top: 20px;
+    opacity: 10%;
+}
+
+
+/* ------- MENU HORIZONTAL  -------- */
+.menu-horizontal{
+    display: flex;
+
+}
+
+/* ------- MENU OPÇÃO G1  -------- */
+.menu-g1{
+    margin-left: 270px;
+}
+.menu-g1a{
+    text-decoration: none;
+    color: #dd2f18;
+
+}
+.menu-g1a:hover{
+    color: #d45342;
+}
+
+/* ------- MENU OPÇÃO OGLOBO  -------- */
+.menu-oglobo{
+    margin-left: 88px;
+
+}
+.menu-ogloboa{
+    text-decoration: none;
+    color: #4b70ae;
+}
+.menu-ogloboa:hover{
+    color: #718bb9;
+}
+/* ------- MENU OPÇÃO VALOR  -------- */
+.menu-valor{
+    margin-left: 80px;
+
+}
+.menu-valora{
+    text-decoration: none;
+    color: #338585;
+}
+.menu-valora:hover{
+    color: #359b9b;
+}
+/* ------- MENU OPÇÃO GE  -------- */
+.menu-ge{
+    margin-left: 80px;
+
+}
+.menu-gea{
+    text-decoration: none;
+    color: #1fb25a;
+}
+.menu-gea:hover{
+    color: #72d89b;
+}
+/* ------- MENU OPÇÃO PODCASTS  -------- */
+.menu-podcasts{
+    margin-left: 80px;
+}
+.menu-podcastsa{
+    text-decoration: none;
+    color: #6c6f74;
+}
+.menu-podcastsa:hover{
+    color: #a2a4a7;
+}
+/* ------- MENU OPÇÃO GLOBOPLAY  -------- */
+.menu-globoplay{
+    margin-left: 80px;
+}
+.menu-globoplaya{
+    text-decoration: none;
+    color: #fc355d;
+}
+.menu-globoplaya:hover{
+    color: #f3718b;
+}
+/* ------- MENU OPÇÃO GSHOW -------- */
+.menu-gshow{
+    margin-left: 80px;
+}
+.menu-gshowa{
+    text-decoration: none;
+    color: #ff8533;
+}
+.menu-gshowa:hover{
+    color: #f5a16a;
+}
+/* ------- MENU OPÇÃO QUEM  -------- */
+.menu-quem{
+    margin-left: 80px;
+}
+.menu-quema{
+    color: #5c5c5c;
+    text-decoration: none;
+}
+.menu-quema:hover{
+    color: #9b9797;
+}
+/* ------- MENU OPÇÃO RECEITAS  -------- */
+.menu-receitas{
+    margin-left: 90px;
+}
+.menu-receitasa{
+    text-decoration: none;
+    color: #b74397;
+}
+.menu-receitasa:hover{
+    color: #df73c0;
+}
+/* ------- MENU OPÇÃO OFERTAS  -------- */
+.menu-ofertas{
+    margin-left: 100px;
+}
+.menu-ofertasa{
+    text-decoration: none;
+    color: #335aff;
+}
+.menu-ofertasa:hover{
+    color: #748cfc;
+}
+/* ------- QUEBRA DE LINHA 2  -------- */
+.quebra2{
+    margin-top: 10px;
+    opacity: 10%;
+}
+/* ------- FIM MENU HORIZONTAL  -------- */
+.corpo{
+    width: 100%;
+    height: 1400px;
+}
+/* ------- Anúncio google  -------- */
+.div-anuncio{
+    margin-top: 165px;
+    margin-left: 258px;
+    width: 1250px;
+    height: 250px;
+    background-color: #efefef;
+    border-radius: 12px;
+}
+.anuncio-globo{
+    border-radius: 12px;
+}
+
+/* ------- Noticias e divs  -------- */
+
+/* ---- Noticia 1 principal sem foto (Grande) ----- */
+.div-noticiaG-left{
+    margin-left: 260px;
+}
+
+.escrita-noticiaG-left{
+    color: #c4170c;
+    font-size: 40pt;
+    
+}
+.escrita-noticiaG-lefta{
+    color: #c4170c;
+    text-decoration: none;
+}
+.escrita-noticiaG-lefta:hover{
+    color:#f03018;
+    transition: 0.5s;
+}
+
+/* ---- Noticia 2 principal com foto (peq) ----- */
+
+#linha-vertical3{
+    border-left: 1px solid #ebedef;
+    height: 925px;
+    margin-left: 910px;
+    margin-top: -240px;
+}
+
+.img-noticia2{
+    margin-left: 940px;
+    margin-top: -930px;
+
+}
+/* ---- linhas verticais noticias ----- */
+#linha-vertical4{
+    border-left: 1px solid #ebedef;
+    height: 925px;
+    margin-left: 1230px;
+    margin-top: -925px;
+}
+/* ---- noticia marilia ----- */
+.img-n1{
+    border-radius: 12px;
+}
+.div-noticiaP-left{
+    display: flex;
+    font-size: 14pt;
+    font-family: nunito;
+}
+.post_title{
+    color: #ff6700;
+    margin-top: -775px;
+    margin-left: -250px;
+    font-size: 16pt;
+    line-height: 1.2;
+    
+}
+
+.post_titleM{
+    margin-top: -700px;
+    margin-left: -212px;
+}
+
+.escrita-post_titlem1{
+    font-size: 11pt;
+    color:#ff6700;
+}
+
+.escrita-post_titlem-black{
+    color: #4f5257;
+}
+
+.escrita-marilia{
+    color:#ff6700;
+    text-decoration: none;
+}
+
+.escrita-post_titlem-blacka{
+    text-decoration: none;
+    color: #4f5257;
+}
+/* ---- noticia meteoro ----- */
+.img-noticia3{
+    margin-top: -930px;
+    margin-left: 1260px;
+}
+
+.img-n3{
+    border-radius: 12px;
+}
+.escritameteoro{
+    font-size: 16pt;
+    margin-top: 11px;
+    margin-left: 1260px;
+    line-height: 1.2;
+}
+
+.escritameteoroa{
+    font-family: nunito;
+    text-decoration: none;
+    color: #c4170c;
+}
+
+.post_titleM2{
+    margin-left: 1240px;
+    margin-top: -5px;
+
+}
+
+.sub-escrita-meteoro{
+    font-family: nunito;
+    font-size: 11pt;
+    color: #c4170c;
+}
+.sub-escrita-meteoro-b a{
+    color: #4f5257;
+    text-decoration: none;
+}
+/* ---- noticia scooby ----- */
+.div-noticiaP-left3{
+    margin-left: 940px;
+    margin-top: 55px;
+}
+.img-noticia4{
+    border-radius: 12px;
+}
+.escrita-scooby-div{
+    margin-top: -8px;
+}
+.li-laranja{
+    color:#ff6700;
+}
+.sub-noticia-scooby{
+    margin-left: -20px;
+}
+.escrita-scooby-black a{
+    font-family: nunito;
+    font-size: 11pt;
+    color: #4f5257;
+    text-decoration: none;
+}
+.escrita-scooby a{
+    color: #ff6700;
+    font-family: nunito;
+    text-decoration: none;
+    font-size: 16pt;
+    line-height: 1.2;
+}
+/* ---- noticia françoise ----- */
+.div-noticiaP-left4{
+    margin-left: 1260px;
+    margin-top: -288px;
+}
+.img-noticia5{
+    border-radius: 12px;
+}
+.escrita-francoise-div{
+    margin-top: -8px;
+}
+.escrita-francoise a{
+    text-decoration: none;
+    font-family: nunito;
+    color: #c4170c;
+    font-size: 16pt;
+    word-spacing: -1px;
+    line-height: 1.2;
+}
+.sub-titulo-francoise-div{
+    margin-left: -20px;
+    font-family: nunito;
+}
+.escrita-francoise-black a{
+    text-decoration: none;
+    font-size: 11pt;
+    color: #4f5257;
+    
+}
+.li-vermelho{
+    color: #c4170c;
+}
+/* ---- noticia anitta ----- */
+.div-noticiaP-left5{
+    margin-left: 940px;
+    margin-top: 55px;
+}
+.img-noticia6{
+    border-radius: 12px;
+}
+.escrita-anitta a{
+    color: #ff6700;
+    font-family: nunito;
+    text-decoration: none;
+    font-size: 16pt;
+    line-height: 1.2;
+}
+.escrita-anitta-div{
+    margin-top: -8px;
+}
+.subtitulo-anitta-b a{
+    font-family: nunito;
+    font-size: 11pt;
+    color: #4f5257;
+    text-decoration: none;
+}
+.subtitulo-anitta{
+    margin-left: -20px;
+}
+/* ---- noticia bolsonaro ----- */
+.div-noticiaP-left6{
+    margin-left: 1260px;
+    margin-top: -307px;
+}
+.img-noticia7{
+    border-radius: 12px;
+}
+.escrita-bolsonaro a{
+    text-decoration: none;
+    font-family: nunito;
+    color: #c4170c;
+    font-size: 16pt;
+    word-spacing: -1px;
+    line-height: 1.2;
+}
+.escrita-bolsonaro-div{
+    margin-top: -8px;
+}
+.subtitulo-bolsonaro-b a{
+    font-family: nunito;
+    text-decoration: none;
+    font-size: 11pt;
+    color: #4f5257;
+}
+.subtitulo-bolsonaro{
+    margin-left: -20px;
+    
+}
+/* ---- linha vertical noticias esquerda ----- */
+.linha-vertical-meio{
+height: 45px;
+border-top: 1px solid rgb(240, 235, 235);
+width: 35%;
+opacity: 90%;
+margin-top: -675px;
+margin-left: 260px;
+}
+/* ---- sub-noticias principas esquerda ----- */
+.noticias-principais-sem-foto-div{
+    margin-top: -180px;
+    margin-left: 245px;
+}
+.sub-titulo-principal a{
+    font-family: nunito;
+    font-size: 18px;
+    padding-top: 5px;
+    color: #4f5257;
+    text-decoration: none;
+}
+.sub-titulo-principal:hover{
+    text-decoration: underline;
+}
+
+.bullets-noticias-principais{
+    color: #c4170c;
+}
+/* ---- noticias central esquerda img pequena ----- */
+.noticia-cf-economia{
+    margin-top: 70px;
+    margin-left: 695px;
+}
+.img-cf-economia{
+    border-radius: 12px;
+}
+.titles-cf-vermelho {
+    font-family: nunito;
+    color: #c4140c;
+    line-height: 1;
+    text-decoration: none;
+    margin-top: 12px;
+
+}
+.title-cf-economia{
+    font-size: 19px;
+}
+.titles-cf-vermelho-a{
+    color: #c4140c;
+    text-decoration: none;
+}
+.sub-title-economia{
+    margin-left: -25px;
+    margin-top: -8px;
+}
+.sub-title-cf-economia a{
+    font-family: nunito;
+    color: #4f5257;
+    font-size: 15px;
+    text-decoration: none;
+    
+}
+/* ---- noticia francoise esquerda ----- */
+.noticia-cf-francoise-div{
+    margin-top: -265px;
+    margin-left: 480px;
+}
+.img-noticia-cf2{
+    border-radius: 12px;
+}
+.title-cf-francoise{
+    margin-top: -8px;
+}
+.title-cf-francoise-escrita a{
+    font-family: nunito;
+    font-size: 22px;
+    color: #c4140c;
+    line-height: 1;
+    text-decoration: none;
+}
+.sub-title-cf-francoise{
+    margin-left: -24px;
+    margin-top: -6px;
+}
+.sub-title-cf-francoise-b a{
+    font-size: 15px;
+    font-family: nunito;
+    text-decoration: none;
+    color: #4f5257;
+}
+/* ---- noticia minas esquerda ----- */
+.noticia-cf-minas-div{
+    margin-left: -215px;
+    margin-top: -265px;
+}
+.img-noticia-minas{
+    border-radius: 12px;
+}
+.title-cf-minas{
+    margin-top: -10px;
+}
+.title-cf-minas-escrito a{
+    font-family: nunito;
+    font-size: 22px;
+    color: #c4140c;
+    line-height: 1;
+    text-decoration: none;
+}
+.sub-title-cf-minas{
+    margin-top: -5px;
+    margin-left: -22px;
+    font-family: nunito;
+    font-size: 15px;
+}
+.sub-title-cf-minas-escrita a{
+    line-height: 0.9;
+    color: #4f5257;
+    text-decoration: none;
+    font-family: nunito;
+    font-size: 11pt;
+}
+.subtitle-governador-div{
+    margin-left: -24px;
+}
+/* ---- linha vertical 2 noticias esquerda ----- */
+.linha-vertical-meio2{
+height: 45px;
+border-top: 1px solid rgb(240, 235, 235);
+width: 35%;
+opacity: 90%;
+margin-left: 260px;
+}
+/* ---- noticias central esquerda com img ----- */
+
+/* ---- noticia grécia ----- */
+.noticia-sf-grecia-div{
+    margin-top: -20px;
+    margin-left: 265px;
+}
+.img-sf-grecia{
+    border-radius: 12px;
+}
+.title-grecia-sf{
+    font-family: nunito;
+    font-size: 22px;
+    color: #c4140c;
+    line-height: 1;
+    text-decoration: none;
+    letter-spacing: -0.3px;
+    margin-top: 12px;
+}
+.title-grecia-sf a{
+    color: #c4140c;
+    text-decoration: none;
+}
+.sub-title-sf-grecia{
+    margin-left: -23px;
+    font-family: nunito;
+    font-size: 11pt;
+}
+/* ---- noticia lins ----- */
+.noticia-sf-lins-div{
+    margin-left: 480px;
+    margin-top: -280px;
+}
+.img-lins-sf{
+    border-radius: 12px;
+}
+.subtitle-lins-sf-div{
+    margin-left: -23px;
+    font-family: nunito;
+    font-size: 11pt;
+}
+/* ---- noticia governador ----- */
+.noticia-governador-sf-div{
+    margin-left: 695px;
+    margin-top: -278px;
+}
+.img-governador-sf{
+    border-radius: 12px;
+}
+.title-governador-escrita{
+    margin-top: 12px;
+    line-height: 1;
+}
+.title-governador-escrita a{
+    font-family: nunito;
+    font-size: 22px;
+    color: #c4140c;
+    text-decoration: none;
+    letter-spacing: -0.3px;
+}
+/* ---- footer ----- */
+.footer{
+    width: 100%;
+    height: 164px;
+    background-color: #0131ff;
+    padding-top: 20px;
+    padding-bottom: 24px;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    vertical-align: baseline;
+}
+.logo-footer{
+    margin-left: 266px;
+}
+.img-footer{
+    margin-top: 20px;
+    filter: brightness(0) invert(1);
+}
+.icon-globo{
+    margin-left: 266px;
+    margin-top: 50px;
+}
+.icon-globo-footer{
+    filter: brightness(0) invert(1);
+}
+
+.copyright-div{
+    margin-top: -57px;
+    margin-left: 310px;
+}
+.copyright-escrita{
+    color: #ffff;
+    font-family: nunito;
+    font-size: 12px;
+    line-height: 14px;
+    font-weight: 400;
+}
+
+.menu-footer{
+    margin-top: -130px;
+    margin-left: 862px;
+}
+.menu-footer-div{
+    display: flex;
+    list-style: none;
+}
+
+.style-menu-footer{
+    margin-left: 20px;
+    font-family: nunito;
+    color: white;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.style-menu-footer-a{
+    color: white;
+    text-decoration: none;
+}
+/* ---- creditos andré ----- */
+.desenvolvido-copy-div{
+    width: 70%;
+    margin-top: 90px;
+}
+.desenvolvido-copy-escrita{
+    color: white;
+    font-family: nunito;
+    border: 3px solid white;
+    border-radius: 3px;
+}

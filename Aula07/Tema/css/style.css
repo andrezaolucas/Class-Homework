@@ -1,0 +1,39 @@
+.flex-container{
+    background-color: blue;
+    display: flex;
+}
+
+.flex-container div{
+    background-color: cadetblue;
+    margin: 10px;
+    padding: 10px;
+    font-size: 20pt;
+
+}
+
+/* usando grid */ 
+.grid1{
+    background-color: blue;
+    display: grid;
+    grid-template-columns: auto auto auto;
+        /* mude aqui ˆ para rows
+        para dispor o conteúdo na vertical */
+    column-gap: 10px;
+    row-gap: 10px;
+
+}
+
+.grid1 div{
+    background-color: cadetblue;
+    padding: 10px;
+    font-size: 20pt;
+
+}
+
+.div1{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 4;
+    
+}
