@@ -1,0 +1,44 @@
+#corpo {
+    margin: 0 auto;
+    width: 1000px;
+}
+
+header {
+    text-align: center;
+}
+.linha-topo, .titulo-topo {
+    padding: 0;
+}
+
+.linha-bloco {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    column-gap: 15px;
+    row-gap: 15px;
+}
+
+.linha-bloco article {
+    box-shadow: 2px 2px 2px rgb(145, 144, 144);
+    padding: 30px 32px 60px;
+
+}
+
+.linha-bloco article a {
+    color:  navy;
+    text-decoration: none;
+}
+
+.setinha-bloco {
+    text-align: right;
+}
+
+.categoria {
+    font-size: 13px;
+    padding: 30px 32px;
+    margin-bottom: 30px;
+}
+
+.texto {
+    font-size: 20px;
+    font-weight: bold;
+}
