@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Formulários</title>
+</head>
+<body>
+    <form>
+        <label for="inputNome">Nome:</label>
+        <input type="text" name="inputNome" required/>
+        <br/><br/>
+        <label for="inputSobrenome">Sobrenome:</label>
+        <input type="text" name="inputSobrenome" maxlength="100" size=""/>
+        <br/><br/>
+        <label for="inputIdade">Idade:</label>
+        <input type="number" name="inputIdade" max="120"/>
+        <br/><br/>
+        <label for="selectSexo">Sexo:</label>
+        <select name="selectSexo">
+            <option value="" selected>Selecione</option>
+            <option value="M">Masculino</option>
+            <option value="F">Feminino</option>
+        </select>
+        <br/><br/>
+        <label for="inputSenha">Senha:</label>
+        <input type="password" name="inputSenha"/> 
+        <input type="checkbox" name="ckeckVersenha"/>Ver senha
+        <br/><br/>
+        <label for="radioAdmin">Administrador:</label>
+        <input type="radio" name="radioAdmin" value="s"/>Sim
+        <input type="radio" name="radioAdmin" value="n"/>Não
+        <br/><br/>
+        <label for="dateAdmissao">Data de admissão:</label>
+        <input type="date" name="dateAdmissao"/>
+        <br/><br/>
+        <input type="submit" name="btnCadastrar" value="Cadastrar"/>
+        <input type="reset" name="btnLimpar" value="Limpar"/>
+        <button type="submit">Cadastrar 2</button>
+        <button type="button">Botão simples</button>
+        
+        <input type="button" value="Botão Simples2"/>
+    </form>
+</body>
+</html>
