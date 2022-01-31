@@ -1,0 +1,57 @@
+.texto{
+    color:black;
+    text-align: center;
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: 700;
+}
+
+.sub{
+    color: black;
+    text-align: center;
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: 300;
+}
+
+.perguntas{
+    color: black;
+    text-align: center;
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: 700;
+}
+
+.respostas{
+    color: black;
+    text-align: center;
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: 200;
+}
+
+.img{
+    height: 500px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: black solid
+}
+
+.logobtc{
+    height: 250px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.rodape{
+    color: black;
+    text-align: center;
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: 100;
+    font-size: 13px;
+}
+
+.fonte{
+    color: gray;
+    text-align: center;
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: 100;
+}
