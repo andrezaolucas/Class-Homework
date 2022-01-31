@@ -1,0 +1,56 @@
+#site{
+    width: 900px;
+    margin: 0 auto;
+}
+
+#topo{
+    width: 100%;
+    height: 100px;
+    background-color: blue;
+}
+
+#navtopo{
+    height: 30px;
+    background-color: green;
+
+}
+
+#conteudo{
+    height: 500px;
+    background-color: black;
+    width: 100%;
+}
+
+#barralado{
+    width: 20%;
+    height: 100%;
+    background-color: coral;
+    float: left;
+}
+
+#sectionblocos{
+    width: 80%;
+    height: 100%;
+    background-color: ivory;
+    float: left;
+}
+
+.amarelo{
+    background-color: yellow;
+}
+
+.azul{
+    background-color: blue;
+}
+
+.bloco{
+    width: 50%;
+    height: 33.33%;
+    float: left;
+}
+
+#rodape{
+    height: 50px;
+    width: 100%;
+    background-color: yellowgreen;
+}
