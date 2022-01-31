@@ -1,0 +1,10 @@
+Crie um site de página simples com tema livre (Censura Livre)
+Precisa ter:
+
+titulo
+navbar
+conteudo com texto e/ou imagem
+rodapé
+
+---------
+sugestões -> lanchonetes com Cardápio, lojas com produtos para exibição

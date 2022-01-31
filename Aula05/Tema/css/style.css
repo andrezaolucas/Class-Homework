@@ -1,0 +1,54 @@
+span{
+    color: tomato;
+    font-style: italic;
+    background-color: yellow;
+}
+
+.destaque{
+    color: red;
+    font-weight: bolder;
+}
+
+/* ESTILOS DAS MATÉRIAS */
+
+#materias{
+    background-color: beige;
+    width: 900px;
+    border: 1px solid gray;
+    border-radius: 10px;
+    margin: 0 auto;
+}
+
+.img-padrao{
+    width: 80%;
+    border-radius: 5px;
+}
+
+.bloco{
+    width: 25%;
+    margin: 10px;
+    padding: 5px;
+    color: lightgray;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px gray;
+    float: left;
+    text-align: center;
+}
+
+.esportes{
+    color: lime;
+
+}
+
+.diversos{
+    color: mediumorchid;
+}
+
+.noticias{
+    color: red;
+}
+
+#blocos{
+    margin: 0 auto;
+    display: block;
+}
