@@ -1,0 +1,19 @@
+/*---TERCEIRA NAV---*/
+.logoapple{
+    margin-top: -5px;
+}   
+/*---SEGUNDA NAV---*/
+.logoapple2{
+ position: relative;
+ top: -3px;
+}   
+/*---PRIMEIRA NAV---*/
+.logo-apple{
+    position: relative;
+    top: -3px;
+}
+/*---CRÉDITOS---*/
+.escrita-creditos{
+    font-family: nunito;
+    margin-left: 500px;
+}
