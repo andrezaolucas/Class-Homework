@@ -1,0 +1,37 @@
+* {
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+body {
+    background-color: black;
+}
+
+ol{
+    margin-left: 500px;
+}
+ul {
+    position: relative;
+    list-style-type: none;
+    cursor: pointer;
+    margin-left: 1200px;
+    margin-top: -180px;
+
+}
+
+#lado{
+    margin-top: 100px;
+}
+
+.titulo {
+    text-align: center;
+    font-size: 38px;
+}
+
+.creditos{
+    color: white;
+text-align: center;
+font-size: 12px;
+position: relative;
+}
+
